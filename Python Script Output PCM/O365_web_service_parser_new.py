@@ -339,6 +339,7 @@ def WebServiceParser():
             url_default = open('url_default.txt','w')
             IP_not_default = open('ip_not_default.txt','w')
             IP_default = open('ip_default.txt','w')
+            # David's Test Line
             # iterate through each 'item' in the JSON data
             for item in output:
                 # make sure URLs exist in the item
