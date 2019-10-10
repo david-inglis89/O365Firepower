@@ -333,17 +333,10 @@ def WebServiceParser():
 
             # grab output in JSON format
             output = req.json()
-<<<<<<< HEAD
-            url_not_default = open('url_not_default.txt','r') 
-            url_default = ipen('url_default.txt','rw')
-            IP_not_default = open('ip_not_default.txt','w')
-            IP_default = open('ip_default.txt','w')
-=======
             URL_List = []
             URL_default_list = []
             IP_List = []
             IP_default_list = []
->>>>>>> upstream/master
             # iterate through each 'item' in the JSON data
             for item in output:
 
